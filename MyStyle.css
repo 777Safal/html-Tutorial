@@ -1,0 +1,32 @@
+.first {
+    text-align: center;
+    background-color: red;
+    height: 50px;
+      width: 300px;
+  }
+  .second {
+    background-color: yellow;
+    height: 250px;
+      width: 300px;
+  }
+    .indoor1a {
+    background-color: blue;
+    height: 28px;
+      width: 45px;
+      margin: 10px;
+      float:left;
+  }
+     .indoor1b {
+    background-color: blue;
+    height: 28px;
+      width: 150px;
+      margin: 10px;
+       float:left;
+  }
+    .indoor2 {
+    background-color: blue;
+    height: 100px;
+      width: 80px;
+      margin: 10px;
+      float:left;
+  }
