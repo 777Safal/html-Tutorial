@@ -1,0 +1,32 @@
+.p1{
+    border-radius: 15px 5px;
+    background-image: linear-gradient(to right, black, white);
+    box-shadow: 20px 10px 30px red;
+    color:white;
+    font-size: 14px;
+    width: 500px;
+    height: 80px;
+    padding: 5px;
+    text-shadow: 2px 2px 3px rgb(0, 195, 255);
+    text-align: center;
+}
+.p2{
+    border-radius: 15px 5px;
+    background-image: linear-gradient(to right, rgb(44, 177, 203), white);
+    box-shadow: 20px 10px 30px #00ff0d;
+    color:white;
+    font-size: 14px;
+    width: 500px;
+    height: 80px;
+    padding: 5px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+.firstdiv{
+    background-image: url(backimg.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+    border: 2px solid red ;
+}
