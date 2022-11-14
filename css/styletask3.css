@@ -1,0 +1,42 @@
+div{
+    width:100px;
+     height:100px;
+     border:2px solid yellow;
+     float:left;
+   }
+   
+   .left{
+     position:absolute;
+     top:1px;
+     left:5px;
+     background-color:green;
+   }
+   
+   .right{
+     background-color:green;
+     position:absolute;
+     top:1px;
+     right:5px;
+   } 
+   
+   .bottomleft{
+     background-color:green;
+     position:absolute;
+     bottom:1px;
+     left:5px;
+   }
+   
+   .bottomright{
+     background-color:green;
+     position:absolute;
+     bottom:1px;
+     right:5px;
+   }
+   
+   .center{
+     background-color:green;
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+   }

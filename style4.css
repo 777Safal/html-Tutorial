@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(34,193,203);
+  }
+  header{
+    position:sticky;
+    top:0px;
+  }
+  ul{
+    list-style-type :none;
+    background-color:rgb(32,33,36);
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+  }
+  
+  li{
+    float:left;
+    display: inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+  }
+  li:hover{
+    background-color:rgb(4,170,109);
+  }
+  .active{
+    background-color:red;
+  }
+  section{
+    margin-top:5px;
+  }
+  div{
+    height:700px;
+  }
+  .background{
+    background-image: url(pic/back1.jpg);
+    background-size: cover;
+  }

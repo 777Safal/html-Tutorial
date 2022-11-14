@@ -1,0 +1,21 @@
+
+.container{
+    display:flex;
+  }
+  .item{
+    width:400px;
+    height:200px;
+    
+  }
+  .item1{
+    background-color:red;
+    min-width:100px;
+  }
+  .item2{
+    background-color:blue;
+    min-width:200px;
+  }
+  .item3{
+    background-color:yellow;
+    min-width:300px;
+  }

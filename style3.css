@@ -16,13 +16,34 @@
     box-shadow: 20px 10px 30px #00ff0d;
     color:white;
     font-size: 14px;
-    width: 500px;
+    width: 50px;
     height: 80px;
     padding: 5px;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     text-align: center;
     writing-mode: vertical-lr;
+    transition: width 1s,height 3s, transform 2s;
+    /* tankini garako should add hover jun line .p2:hover vitra xa */
 }
+.p2:hover{
+    width: 100px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+.p3{
+    display: inline;
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    /* animation use gareko */
+    animation: example;
+    animation-duration: 5s; 
+}
+/*animation connect gareko*/
+@keyframes example {
+    from {color:black;}
+    to {color: yellow;}
+  }
 .firstdiv{
     background-image: url(backimg.jpg);
     background-size: cover;
